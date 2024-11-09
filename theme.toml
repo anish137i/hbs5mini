@@ -1,0 +1,23 @@
+name = 'Hugo Bootstrap 5 Mini'
+license = 'MIT'
+licenselink = 'https://github.com/anish137i/hbs5mini/LICENSE'
+description = 'Hugo Bootstrap 5 Mini Theme'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/anish137i/hbs5mini'
+
+# A running demo of the theme
+demosite = 'in Consept Stage'
+
+tags = ['Hugo', 'Bootstrap']
+features = ['Light', 'CDN', 'Minimal']
+
+[author]
+  name = 'Anish Mandal'
+  homepage = 'https://anishmandal.in'
+
+# If porting an existing theme
+[original]
+  author = 'Anish Mandal'
+  homepage = 'https://anishmandal.in'
+  repo = 'https://github.com/anish137i/hbs5mini'
