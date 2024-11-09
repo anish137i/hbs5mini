@@ -6,7 +6,7 @@ Currently in _Consept_ stage
 
 ## Installation
 
-Add following in _hugo.toml_ file
+Add following in **hugo.toml** file
 `theme = ['hbs5mini']`
 
 ## Configuration
