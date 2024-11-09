@@ -2,7 +2,7 @@
 
 ## Features
 
-Currently in _Consept_ stage
+Currently in _Consept_ stage Fixing Navbar
 
 ## Installation
 
