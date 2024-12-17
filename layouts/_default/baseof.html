@@ -7,7 +7,7 @@
     {{ partial "head.html" . }}
   </head>
   <body>
-    <header>{{ partial "header.html" . }}</header>
+    <header class="container-fluid">{{ partial "header.html" . }}</header>
     <main class="container-fluid">{{ block "main" . }}{{ end }}</main>
     <footer>{{ partial "footer.html" . }}</footer>
   </body>
