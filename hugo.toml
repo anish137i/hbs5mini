@@ -2,6 +2,13 @@ baseURL = ''
 languageCode = 'en-US'
 title = 'Hugo BootStrap 5 Mini Theme'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
 [[menus.main]]
 name = 'Home'
 pageRef = '/'

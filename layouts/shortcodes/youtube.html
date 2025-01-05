@@ -1,0 +1,13 @@
+<!-- prittier-ignore -->
+{{- /* @example {{< youtube 0RKpf3rK57I >}} */}}
+<!-- prittier-ignore -->
+{{- with $id := or (.Get "id") (.Get 0) }}
+<iframe
+  id="player"
+  type="text/html"
+  width="640"
+  height="390"
+  src="http://www.youtube.com/embed/{{$id}}?enablejsapi=1"
+  frameborder="0"
+></iframe>
+{{- end}}
